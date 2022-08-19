@@ -1,4 +1,6 @@
+# If you multiply any number by 9 and sum digits of the result, then sum digits again and so forth, you eventually reach 9
 def magic9(x, limit=100):
+
     i = 0
     s = str(x*9)
     print(x,"*",9,"=",s)
@@ -9,4 +11,4 @@ def magic9(x, limit=100):
             break
     return s
 
-magic9(299_792_458,15)
+magic9(299_792_458)
